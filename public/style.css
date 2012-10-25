@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav { 
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px 10px;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  border-top: 1px solid gray;
+  padding: 10px 0;
+}

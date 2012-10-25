@@ -1,0 +1,9 @@
+{
+  "name": "Bob",
+  "bio": "Mentor at Bloc",
+  "favorites": {
+    "Books": ["Hitch Hiker's Guide", "Ender's Game"],
+    "Programming Languages": ["Ruby", "Objective-C", "JavaScript"],
+    "Desserts": ["chocolate chip cookies", "brownies", "peanut brittle"]
+  }
+}

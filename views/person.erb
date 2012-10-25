@@ -1,0 +1,10 @@
+<h1><%= @person["name"] %></h1>
+<p>Bio: <%= @person["bio"] %></p>
+<% @person["favorites"].each do |category, items| %>
+  <strong><%= category %></strong>
+  <ul>
+    <% items.each do |item| %>
+      <li><%= item %></li>
+    <% end %>
+  </ul>
+<% end %>
